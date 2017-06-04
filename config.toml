@@ -1,0 +1,5 @@
+baseURL = "https://mapperhelper.github.io"
+languageCode = "zh-CN"
+title = "MyBatis 通用 Mapper"
+theme = "learn"
+# search = true
