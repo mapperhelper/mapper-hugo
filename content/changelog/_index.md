@@ -10,6 +10,13 @@ weight = 100
 
 # 更新日志
 
+## 3.4.1 - 2017-07-17
+
+* `Example` 增加复杂的 `and` 和 `or` 功能。
+* `Example` 增加排除查询字段的方法 `excludeProperties`(`selectProperties`优先级更高) [#261](http://git.oschina.net/free/Mapper/issues/261).
+* `SqlHelper` 中复杂的 `if` 改为 `choose` 方式。
+* 解决通过`@Column`配置关键字的分隔符时，无法得到该列值的bug。
+
 ## 3.4.0 - 2017-02-19
 
 * `Example` 增加 for update 支持，仅能用于 selectByExample 和 selectCountByExample 方法 #210
